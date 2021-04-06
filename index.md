@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+:вай: WiFi
+:инт: Internet
+= Домашняя сеть WiFi. Общие понятия
 
-You can use the [editor on GitHub](https://github.com/gnoxuel/home-wifi-outline/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+== Доступ в {инт}. Провайдер
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Практически вся информация, отображающаяся на экранах наших устройств, происходит из {инт}.
+Доступ в {инт} предоставляет провайдер. Для этого в помещение снаружи прокладывается кабель, пользователю присваивается уникальные логин и пароль. Чтобы начать работать, достаточно подсоединить кабель к компьютеру, имеющему сетевой вход, и ввести ваш логин и пароль.
 
-### Markdown
+== Домашняя {вай} сеть для нескольких устройств
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Для того, чтобы обеспечить одновременный доступ в {инт} нескольких гаджетов, необходимо организовать беспроводную сеть. Большинство современных гаджетов способны связываться с источниками, предоставляющими доступ в {инт}, по беспроводной сети. В качестве беспроводной точки доступа выступает роутер. Подготовить роутер к работе можно следующим образом:
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gnoxuel/home-wifi-outline/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+* подсоединить кабель провайдера к роутеру используя сетевой разъём, предназначенный для сети {инт}
+* подключиться к роутеру через один из разъёмов, предназначенных для домашней сети, используя специальный сетевой кабель или, если данная модель поддерживает такую функцию, посредством автоматически созданной роутером беспроводной сети, данные которой указаны на корпусе роутера и 
+* зайти на страничку настроек роутера и ввести логин и пароль, предоставленные провайдером
+* переименовать или создать новую {вай} сеть присвоив ей имя и пароль
+* задать логин и пароль для входа на страничку настроек роутера
